@@ -1,0 +1,10 @@
+version: '3'
+services:
+  webserver:
+    build: .docker/webserver
+    image: hng_internship_web
+    ports:
+      - "80:80"
+      - "443:443"      
+    volumes:
+      - /Users/Al-ameen/Desktop/hotels-intern/stage-one/www:var/www/html

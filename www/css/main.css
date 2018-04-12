@@ -1,0 +1,82 @@
+html,body{
+    font-family:'Montserrat', sans-serif;
+    margin:0
+}
+html{
+    height:100%;
+    background:#e7f8ec;
+    background:-moz-linear-gradient(top, #e7f8ec 0%, #ddf4f4 100%);
+    background:-webkit-linear-gradient(top, #e7f8ec 0%, #ddf4f4 100%);
+    background:linear-gradient(to bottom, #e7f8ec 0%, #ddf4f4 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='$light', endColorstr='$darker',GradientType=0 )
+}
+body{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+h1,h4{
+    width:100%;
+    margin:0
+}
+a{
+    text-decoration:none
+}
+.social{
+    padding:50px;
+    text-align:center
+}
+.title{
+    font-size:3em;
+    font-weight:700;
+    letter-spacing:.15em
+}
+@media screen and (max-width: 600px){
+    .title{font-size:1.65em}
+}
+.name{
+    margin-top:1em;
+	font-size:.8em;
+	font-weight:400;
+    letter-spacing:.5em
+}
+@media screen and (max-width: 600px){
+    .name{font-size:.5em}
+}
+.fader{
+    color:#2e2e2e;
+	text-align:center;
+    text-transform:uppercase
+}
+.time-container{
+    text-align:center;
+    padding:2em 0 0 0;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1fde7f;
+}
+.svg{
+    display:inline-block;
+	margin:1em;
+	width:2em;
+	height:2em;
+	text-indent:-9999px;
+	background:no-repeat center;
+	background-size:1.5em 1.5em;
+	opacity:.15;
+	transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+    -webkit-transition:opacity .25s ease-in-out
+}
+.svg:hover{
+    opacity:1;
+	transition:opacity .25s ease-in-out;
+	-moz-transition:opacity .25s ease-in-out;
+    -webkit-transition:opacity .25s ease-in-out
+}
+.behance{background-image:url("../assets/behance.svg")}
+.dribbble{background-image:url("../assets/dribbble.svg")}
+.linkedin{background-image:url("../assets/linkedin.svg")}
+.twitter{background-image:url("../assets/twitter.svg")}
+/*# sourceMappingURL=main.css.map */
