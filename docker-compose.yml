@@ -7,4 +7,4 @@ services:
       - "80:80"
       - "443:443"      
     volumes:
-      - /Users/Al-ameen/Desktop/hotels-intern/stage-one/www:var/www/html
+      - /www
